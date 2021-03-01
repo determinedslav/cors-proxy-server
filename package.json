@@ -8,7 +8,8 @@
     "build": "npm run clean && npm run build-babel",
     "build-babel": "babel -d ./build ./src -s",
     "start": "npm run build && node ./build/server.js",
-    "server": "nodemon --exec babel-node ./src/server.js"
+    "server": "nodemon --exec babel-node ./src/server.js",
+    "web": "npm run server"
   },
   "keywords": [
     "express",
