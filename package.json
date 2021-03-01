@@ -4,7 +4,7 @@
   "description": "TFT Viewer proxy server",
   "main": "server.js",
   "scripts": {
-    "server": "node ./src/server.js"
+    "start": "node ./src/server.js"
   },
   "keywords": [
     "express",
